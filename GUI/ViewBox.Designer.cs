@@ -37,14 +37,18 @@ namespace GUI
             this.ImageSelectButton = new System.Windows.Forms.Button();
             this.ForwardButton = new System.Windows.Forms.Button();
             this.BackwardButton = new System.Windows.Forms.Button();
+            this.BrightnessDecrease = new System.Windows.Forms.Button();
+            this.BrightnessIncrease = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // CloseButton
             // 
-            this.CloseButton.Location = new System.Drawing.Point(698, 12);
+            this.CloseButton.Location = new System.Drawing.Point(465, 8);
+            this.CloseButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CloseButton.Name = "CloseButton";
-            this.CloseButton.Size = new System.Drawing.Size(90, 48);
+            this.CloseButton.Size = new System.Drawing.Size(60, 31);
             this.CloseButton.TabIndex = 0;
             this.CloseButton.Text = "close";
             this.CloseButton.UseVisualStyleBackColor = true;
@@ -52,9 +56,10 @@ namespace GUI
             // 
             // RotateButton
             // 
-            this.RotateButton.Location = new System.Drawing.Point(647, 129);
+            this.RotateButton.Location = new System.Drawing.Point(431, 84);
+            this.RotateButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.RotateButton.Name = "RotateButton";
-            this.RotateButton.Size = new System.Drawing.Size(141, 50);
+            this.RotateButton.Size = new System.Drawing.Size(94, 32);
             this.RotateButton.TabIndex = 1;
             this.RotateButton.Text = "Rotate";
             this.RotateButton.UseVisualStyleBackColor = true;
@@ -62,9 +67,10 @@ namespace GUI
             // 
             // FliphorizontalButton
             // 
-            this.FliphorizontalButton.Location = new System.Drawing.Point(647, 185);
+            this.FliphorizontalButton.Location = new System.Drawing.Point(431, 120);
+            this.FliphorizontalButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.FliphorizontalButton.Name = "FliphorizontalButton";
-            this.FliphorizontalButton.Size = new System.Drawing.Size(141, 48);
+            this.FliphorizontalButton.Size = new System.Drawing.Size(94, 31);
             this.FliphorizontalButton.TabIndex = 2;
             this.FliphorizontalButton.Text = "Flip Horizontal";
             this.FliphorizontalButton.UseVisualStyleBackColor = true;
@@ -72,9 +78,10 @@ namespace GUI
             // 
             // FlipVertical
             // 
-            this.FlipVertical.Location = new System.Drawing.Point(647, 239);
+            this.FlipVertical.Location = new System.Drawing.Point(431, 155);
+            this.FlipVertical.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.FlipVertical.Name = "FlipVertical";
-            this.FlipVertical.Size = new System.Drawing.Size(141, 48);
+            this.FlipVertical.Size = new System.Drawing.Size(94, 31);
             this.FlipVertical.TabIndex = 3;
             this.FlipVertical.Text = "Flip Vertical";
             this.FlipVertical.UseVisualStyleBackColor = true;
@@ -82,17 +89,19 @@ namespace GUI
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(163, 50);
+            this.pictureBox1.Location = new System.Drawing.Point(11, 32);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(267, 275);
+            this.pictureBox1.Size = new System.Drawing.Size(379, 179);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
             // ImageSelectButton
             // 
-            this.ImageSelectButton.Location = new System.Drawing.Point(171, 369);
+            this.ImageSelectButton.Location = new System.Drawing.Point(113, 319);
+            this.ImageSelectButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ImageSelectButton.Name = "ImageSelectButton";
-            this.ImageSelectButton.Size = new System.Drawing.Size(267, 52);
+            this.ImageSelectButton.Size = new System.Drawing.Size(178, 34);
             this.ImageSelectButton.TabIndex = 5;
             this.ImageSelectButton.Text = "Select Image";
             this.ImageSelectButton.UseVisualStyleBackColor = true;
@@ -100,30 +109,67 @@ namespace GUI
             // 
             // ForwardButton
             // 
-            this.ForwardButton.Location = new System.Drawing.Point(444, 129);
+            this.ForwardButton.Location = new System.Drawing.Point(113, 240);
+            this.ForwardButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ForwardButton.Name = "ForwardButton";
-            this.ForwardButton.Size = new System.Drawing.Size(141, 50);
+            this.ForwardButton.Size = new System.Drawing.Size(94, 32);
             this.ForwardButton.TabIndex = 6;
-            this.ForwardButton.Text = "Forward";
+            this.ForwardButton.Text = ">";
             this.ForwardButton.UseVisualStyleBackColor = true;
             this.ForwardButton.Click += new System.EventHandler(this.ForwardButton_Click);
             // 
             // BackwardButton
             // 
-            this.BackwardButton.Location = new System.Drawing.Point(12, 129);
+            this.BackwardButton.Location = new System.Drawing.Point(11, 240);
+            this.BackwardButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BackwardButton.Name = "BackwardButton";
-            this.BackwardButton.Size = new System.Drawing.Size(141, 50);
+            this.BackwardButton.Size = new System.Drawing.Size(94, 32);
             this.BackwardButton.TabIndex = 7;
-            this.BackwardButton.Text = "Backward";
+            this.BackwardButton.Text = "<";
             this.BackwardButton.UseVisualStyleBackColor = true;
             this.BackwardButton.Click += new System.EventHandler(this.BackwardButton_Click);
             // 
+            // BrightnessDecrease
+            // 
+            this.BrightnessDecrease.Location = new System.Drawing.Point(346, 260);
+            this.BrightnessDecrease.Margin = new System.Windows.Forms.Padding(2);
+            this.BrightnessDecrease.Name = "BrightnessDecrease";
+            this.BrightnessDecrease.Size = new System.Drawing.Size(94, 32);
+            this.BrightnessDecrease.TabIndex = 9;
+            this.BrightnessDecrease.Text = "-";
+            this.BrightnessDecrease.UseVisualStyleBackColor = true;
+            this.BrightnessDecrease.Click += new System.EventHandler(this.BrightnessDecrease_Click);
+            // 
+            // BrightnessIncrease
+            // 
+            this.BrightnessIncrease.Location = new System.Drawing.Point(513, 260);
+            this.BrightnessIncrease.Margin = new System.Windows.Forms.Padding(2);
+            this.BrightnessIncrease.Name = "BrightnessIncrease";
+            this.BrightnessIncrease.Size = new System.Drawing.Size(94, 32);
+            this.BrightnessIncrease.TabIndex = 8;
+            this.BrightnessIncrease.Text = "+";
+            this.BrightnessIncrease.UseVisualStyleBackColor = true;
+            this.BrightnessIncrease.Click += new System.EventHandler(this.BrightnessIncrease_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(445, 270);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(56, 13);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Brightness";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // ViewBox
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(902, 584);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.BrightnessDecrease);
+            this.Controls.Add(this.BrightnessIncrease);
             this.Controls.Add(this.BackwardButton);
             this.Controls.Add(this.ForwardButton);
             this.Controls.Add(this.ImageSelectButton);
@@ -133,6 +179,7 @@ namespace GUI
             this.Controls.Add(this.RotateButton);
             this.Controls.Add(this.CloseButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ViewBox";
             this.Text = "ViewBox";
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ViewBox_MouseDown);
@@ -140,6 +187,7 @@ namespace GUI
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ViewBox_MouseUp);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -153,6 +201,9 @@ namespace GUI
         private System.Windows.Forms.Button ImageSelectButton;
         private System.Windows.Forms.Button ForwardButton;
         private System.Windows.Forms.Button BackwardButton;
+        private System.Windows.Forms.Button BrightnessDecrease;
+        private System.Windows.Forms.Button BrightnessIncrease;
+        private System.Windows.Forms.Label label1;
     }
 }
 

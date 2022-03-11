@@ -175,6 +175,22 @@ namespace GUI
         }
 
         /// <summary>
+        /// 
+        /// </summary>
+        public void IncreaseBrightness()
+        {
+            _server.IncreaseBrightnessImage(_filePathList[_currentImage]);
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void DecreaseBrightness()
+        {
+            _server.DecreaseBrightnessImage(_filePathList[_currentImage]);
+        }
+
+        /// <summary>
         /// RETURN the image found using the file path selected
         /// </summary>
         /// <param name="pWidth"></param>

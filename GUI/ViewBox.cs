@@ -41,6 +41,11 @@ namespace GUI
         //INSTANCE of ImageFlipHorDelegate, call it _imageFlipHorDelegate
         ImageFlipHorDelegate _imageFlipHorDelegate;
 
+        IncreaseBrightnessDelegate _increaseBrightnessDelegate;
+
+        DecreaseBrightnessDelegate _decreaseBrightnessDelegate;
+
+
         /// <summary>
         /// CONSTRUCTOR for ViewBox
         /// </summary>
@@ -61,7 +66,7 @@ namespace GUI
         /// <param name="pImageRotateDelegate"></param>
         /// <param name="pImageFlipHorDelegate"></param>
         /// <param name="pImageFlipVertDelegate"></param>
-        public void Init(IFormLogicInit pFormLogic, ImageSizeDelegate pImageSizeDelegate, ImageSelectDelegate pImageSelectDelegate, ImageIncreaseDelegate pImageIncreaseDelegate, ImageDecreaseDelegate pImageDecreaseDelegate, ImageRotateDelegate pImageRotateDelegate,ImageFlipHorDelegate pImageFlipHorDelegate, ImageFlipVertDelegate pImageFlipVertDelegate)
+        public void Init(IFormLogicInit pFormLogic, ImageSizeDelegate pImageSizeDelegate, ImageSelectDelegate pImageSelectDelegate, ImageIncreaseDelegate pImageIncreaseDelegate, ImageDecreaseDelegate pImageDecreaseDelegate, ImageRotateDelegate pImageRotateDelegate,ImageFlipHorDelegate pImageFlipHorDelegate, ImageFlipVertDelegate pImageFlipVertDelegate, IncreaseBrightnessDelegate pIncreaseBrightnessDelegate, DecreaseBrightnessDelegate pDecreaseBrightnessDelegate)
         {
             //ASSIGN pFormLogic to _formLogic
             _formLogic = pFormLogic;
@@ -86,6 +91,11 @@ namespace GUI
 
             //ASSIGN pImageFlipVertDelegate to _imageFlipVertDelegate
             _imageFlipVertDelegate = pImageFlipVertDelegate;
+
+
+            _increaseBrightnessDelegate = pIncreaseBrightnessDelegate;
+
+            _decreaseBrightnessDelegate = pDecreaseBrightnessDelegate;
 
         }
 
@@ -113,10 +123,7 @@ namespace GUI
             {
                 //CALL the method in FormLogic through the _imageRotateDelegate
                 _imageRotateDelegate();
-
-                //UPDATE the pictureBox1
-                pictureBox1.Image = _imageSizeDelegate(pictureBox1.Width, pictureBox1.Height);
-
+                Update();
             }
             else
             {
@@ -137,10 +144,7 @@ namespace GUI
             {
                 //CALL the method in FormLogic through the _imageFlipHorDelegate
                 _imageFlipHorDelegate();
-
-                //UPDATE the pictureBox1
-                pictureBox1.Image = _imageSizeDelegate(pictureBox1.Width, pictureBox1.Height);
-
+                Update();
             }
             else
             {
@@ -161,10 +165,7 @@ namespace GUI
             {
                 //CALL the method in FormLogic through the _imageFlipDelegate
                 _imageFlipVertDelegate();
-
-                //UPDATE the pictureBox1
-                pictureBox1.Image = _imageSizeDelegate(pictureBox1.Width, pictureBox1.Height);
-
+                Update();
             }
             else
             {
@@ -182,10 +183,7 @@ namespace GUI
         {
             //CALL the method in FormLogic through the _imageSelectDelegate
             _imageSelectDelegate();
-
-            //UPDATE the pictureBox1
-            pictureBox1.Image = _imageSizeDelegate(pictureBox1.Width, pictureBox1.Height);
-
+            Update();
         }
 
         /// <summary>
@@ -201,10 +199,7 @@ namespace GUI
             {
                 //CALL the method in FormLogic through the _imageIncreaseDelegate
                 _imageIncreaseDelegate();
-
-                //UPDATE the pictureBox1
-                pictureBox1.Image = _imageSizeDelegate(pictureBox1.Width, pictureBox1.Height);
-
+                Update();
             }
             else
             {
@@ -225,9 +220,7 @@ namespace GUI
             {
                 //CALL the method  in FormLogic through the _imageDecreaseDelegate
                 _imageDecreaseDelegate();
-
-                //UPDATE the pictureBox1
-                pictureBox1.Image = _imageSizeDelegate(pictureBox1.Width, pictureBox1.Height);
+                Update();
 
             }
             else
@@ -280,5 +273,28 @@ namespace GUI
 
         }
         #endregion
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BrightnessDecrease_Click(object sender, EventArgs e)
+        {
+            _increaseBrightnessDelegate();
+            Update();
+        }
+
+        private void BrightnessIncrease_Click(object sender, EventArgs e)
+        {
+            _decreaseBrightnessDelegate();
+            Update();
+        }
+
+        public void Update()
+        {
+            //UPDATE the pictureBox1
+            pictureBox1.Image = _imageSizeDelegate(pictureBox1.Width, pictureBox1.Height);
+        }
     }
 }

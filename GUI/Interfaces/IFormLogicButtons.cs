@@ -41,6 +41,16 @@ namespace GUI
         void RotateImage();
 
         /// <summary>
+        /// CALL the IncreaseBrightness method in server
+        /// </summary>
+        void IncreaseBrightness();
+
+        /// <summary>
+        /// CALL the DecreaseBrightness method in server
+        /// </summary>
+        void DecreaseBrightness();
+
+        /// <summary>
         /// RETURN the image found using the file path selected
         /// </summary>
         /// <param name="pWidth"></param>

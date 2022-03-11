@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Brightness.cs" />
     <Compile Include="Classes\Delegates.cs" />
     <Compile Include="Interfaces\IServer.cs" />
     <Compile Include="Classes\Server.cs" />

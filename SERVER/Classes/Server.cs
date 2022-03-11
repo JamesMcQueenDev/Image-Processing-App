@@ -18,6 +18,8 @@ namespace SERVER
         //CREATES a new dictionary for image references to be stored
         IDictionary<String, Image> _imageDict = new Dictionary<String, Image>();
 
+        Brightness brightness;
+
         //CREATES a temporary image variable
         Image _tempImage;
 
@@ -103,6 +105,19 @@ namespace SERVER
             //Flip the image in the dictionary along the vertical axis
             _imageDict[pUid].RotateFlip(RotateFlipType.RotateNoneFlipY);
 
+        }
+
+        public void IncreaseBrightnessImage(String pUid)
+        {
+            //Flip the image in the dictionary along the vertical axis
+            brightness.AdjustBrightness(_imageDict[pUid], 10f);
+
+        }
+
+        public void DecreaseBrightnessImage(String pUid)
+        {
+            //Flip the image in the dictionary along the vertical axis
+            brightness.AdjustBrightness(_imageDict[pUid], -10f);
         }
     }
 }

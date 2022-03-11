@@ -50,5 +50,17 @@ namespace SERVER
         /// <returns>the flipped Image</returns>
         void VerticalFlipImage(String pUid);
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="pUid"></param>
+        void IncreaseBrightnessImage(String pUid);
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="pUid"></param>
+        void DecreaseBrightnessImage(String pUid);
+
     }
 }

@@ -32,4 +32,10 @@ namespace SERVER
 
     //DELEGATE which returns void, call it ImageVertDelegate
     public delegate void ImageFlipVertDelegate();
+
+    //DELEGATE which returns void, call it ImageHorDelegate
+    public delegate void IncreaseBrightnessDelegate();
+
+    //DELEGATE which returns void, call it ImageVertDelegate
+    public delegate void DecreaseBrightnessDelegate();
 }

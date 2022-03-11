@@ -47,6 +47,10 @@ namespace ImageApp
         //INSTANCE of delegate, call it _imageFlipVertDelegate
         private ImageFlipVertDelegate _imageFlipVertDelegate;
 
+        private IncreaseBrightnessDelegate _increaseBrightnessDelegate;
+
+        private DecreaseBrightnessDelegate _decreaseBrightnessDelegate;
+
         /// <summary>
         /// CONSTRUCTOR of Controller
         /// </summary>
@@ -85,8 +89,14 @@ namespace ImageApp
             //ASSIGN the method Flipvertical in IFormLogicButtons to _imageFlipVertDelegate 
             _imageFlipVertDelegate = ((IFormLogicButtons)_formLogic).FlipVertical;
 
+
+            _increaseBrightnessDelegate = ((IFormLogicButtons)_formLogic).IncreaseBrightness;
+
+            _decreaseBrightnessDelegate = ((IFormLogicButtons)_formLogic).DecreaseBrightness;
+
+
             //PASS parameters through to Init method of _viewBox
-            _viewBox.Init(_formLogic, _imageSizeDelegate, _imageSelectDelegate, _imageIncreaseDelegate, _imageDecreaseDelegate, _imageRotateDelegate, _imageFlipHorDelegate, _imageFlipVertDelegate);
+            _viewBox.Init(_formLogic, _imageSizeDelegate, _imageSelectDelegate, _imageIncreaseDelegate, _imageDecreaseDelegate, _imageRotateDelegate, _imageFlipHorDelegate, _imageFlipVertDelegate, _increaseBrightnessDelegate, _decreaseBrightnessDelegate);
 
             //RUN the application
             Application.Run(_viewBox);
