@@ -86,7 +86,14 @@ namespace ImageApp
             _imageFlipVertDelegate = ((IFormLogicButtons)_formLogic).FlipVertical;
 
             //PASS parameters through to Init method of _viewBox
-            _viewBox.Init(_formLogic, _imageSizeDelegate, _imageSelectDelegate, _imageIncreaseDelegate, _imageDecreaseDelegate, _imageRotateDelegate, _imageFlipHorDelegate, _imageFlipVertDelegate);
+            _viewBox.Init(_formLogic, 
+                          _imageSizeDelegate, 
+                          _imageSelectDelegate, 
+                          _imageIncreaseDelegate, 
+                          _imageDecreaseDelegate, 
+                          _imageRotateDelegate, 
+                          _imageFlipHorDelegate, 
+                          _imageFlipVertDelegate);
 
             //RUN the application
             Application.Run(_viewBox);
