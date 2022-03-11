@@ -12,13 +12,13 @@ using System.Drawing;
 /// </summary>
 namespace SERVER
 {
-    //DELEGATE which returns an Image, call it imageSizeDelegate.
+    //DELEGATE which returns an Image, call it imageSizeDelegate
     public delegate Image ImageSizeDelegate(int pHeight, int pWidth);
 
-    //DELEGATE which returns void, call it ImageSelectDelegate.
+    //DELEGATE which returns void, call it ImageSelectDelegate
     public delegate void ImageSelectDelegate();
 
-    //DELEGATE which returns void, call it ImageIncreaseDelegate.
+    //DELEGATE which returns void, call it ImageIncreaseDelegate
     public delegate void ImageIncreaseDelegate();
 
     //DELEGATE which returns void, call it ImageDecreaseDelegate
