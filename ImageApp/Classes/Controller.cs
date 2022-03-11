@@ -63,7 +63,7 @@ namespace ImageApp
             _formLogic = new FormLogic();    
             
             //CALL Init method in FormLogic, pass instance of Server as parameter
-            _formLogic.Init(_server);
+            _formLogic.Initialise(_server);
 
             //INITIALISE new instance of ViewBox, call it _viewBox
             _viewBox = new ViewBox();
@@ -96,7 +96,14 @@ namespace ImageApp
 
 
             //PASS parameters through to Init method of _viewBox
-            _viewBox.Init(_formLogic, _imageSizeDelegate, _imageSelectDelegate, _imageIncreaseDelegate, _imageDecreaseDelegate, _imageRotateDelegate, _imageFlipHorDelegate, _imageFlipVertDelegate, _increaseBrightnessDelegate, _decreaseBrightnessDelegate);
+            _viewBox.Init(_formLogic, 
+                          _imageSizeDelegate, 
+                          _imageSelectDelegate, 
+                          _imageIncreaseDelegate, 
+                          _imageDecreaseDelegate, 
+                          _imageRotateDelegate, 
+                          _imageFlipHorDelegate, 
+                          _imageFlipVertDelegate);
 
             //RUN the application
             Application.Run(_viewBox);
