@@ -59,7 +59,7 @@ namespace ImageApp
             _formLogic = new FormLogic();    
             
             //CALL Init method in FormLogic, pass instance of Server as parameter
-            _formLogic.Init(_server);
+            _formLogic.Initialise(_server);
 
             //INITIALISE new instance of ViewBox, call it _viewBox
             _viewBox = new ViewBox();

@@ -27,7 +27,7 @@ namespace GUI
         string _imagePath;
 
         //Stores image paths for all selected images
-        List<String> _filePathList;
+        IList<String> _filePathList;
 
         //Value of current image
         int _currentImage;
@@ -47,7 +47,7 @@ namespace GUI
         /// INITIALISE the variables in FormLogic
         /// </summary>
         /// <param name="pServer"></param>
-        public void Init(IServer pServer)
+        public void Initialise(IServer pServer)
         {
             //INITIALISE instance of IServer, call it _server
             _server = pServer;

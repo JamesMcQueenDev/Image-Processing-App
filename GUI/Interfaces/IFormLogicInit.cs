@@ -13,6 +13,6 @@ namespace GUI
         /// INITIALISE the variables in FormLogic
         /// </summary>
         /// <param name="pServer"></param>
-        void Init(IServer pServer);
+        void Initialise(IServer pServer);
     }
 }
