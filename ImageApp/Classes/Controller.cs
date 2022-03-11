@@ -103,7 +103,9 @@ namespace ImageApp
                           _imageDecreaseDelegate, 
                           _imageRotateDelegate, 
                           _imageFlipHorDelegate, 
-                          _imageFlipVertDelegate);
+                          _imageFlipVertDelegate,
+                          _increaseBrightnessDelegate,
+                          _decreaseBrightnessDelegate);
 
             //RUN the application
             Application.Run(_viewBox);
