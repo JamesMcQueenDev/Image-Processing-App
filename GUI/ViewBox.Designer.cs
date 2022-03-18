@@ -34,41 +34,43 @@ namespace GUI
             this.FliphorizontalButton = new System.Windows.Forms.Button();
             this.FlipVertical = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.ImageSelectButton = new System.Windows.Forms.Button();
+            this.LoadButton = new System.Windows.Forms.Button();
             this.ForwardButton = new System.Windows.Forms.Button();
             this.BackwardButton = new System.Windows.Forms.Button();
             this.BrightnessDecrease = new System.Windows.Forms.Button();
             this.BrightnessIncrease = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.CommandCalledBox = new System.Windows.Forms.Label();
+            this.SaveButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // CloseButton
             // 
-            this.CloseButton.Location = new System.Drawing.Point(465, 8);
-            this.CloseButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CloseButton.Location = new System.Drawing.Point(1048, 385);
+            this.CloseButton.Margin = new System.Windows.Forms.Padding(2);
             this.CloseButton.Name = "CloseButton";
             this.CloseButton.Size = new System.Drawing.Size(60, 31);
             this.CloseButton.TabIndex = 0;
-            this.CloseButton.Text = "close";
+            this.CloseButton.Text = "X";
             this.CloseButton.UseVisualStyleBackColor = true;
             this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
             // RotateButton
             // 
-            this.RotateButton.Location = new System.Drawing.Point(431, 84);
-            this.RotateButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RotateButton.Location = new System.Drawing.Point(1035, 84);
+            this.RotateButton.Margin = new System.Windows.Forms.Padding(2);
             this.RotateButton.Name = "RotateButton";
             this.RotateButton.Size = new System.Drawing.Size(94, 32);
             this.RotateButton.TabIndex = 1;
-            this.RotateButton.Text = "Rotate";
+            this.RotateButton.Text = "Rotate 90";
             this.RotateButton.UseVisualStyleBackColor = true;
             this.RotateButton.Click += new System.EventHandler(this.RotateButton_Click);
             // 
             // FliphorizontalButton
             // 
-            this.FliphorizontalButton.Location = new System.Drawing.Point(431, 120);
-            this.FliphorizontalButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FliphorizontalButton.Location = new System.Drawing.Point(1035, 120);
+            this.FliphorizontalButton.Margin = new System.Windows.Forms.Padding(2);
             this.FliphorizontalButton.Name = "FliphorizontalButton";
             this.FliphorizontalButton.Size = new System.Drawing.Size(94, 31);
             this.FliphorizontalButton.TabIndex = 2;
@@ -78,8 +80,8 @@ namespace GUI
             // 
             // FlipVertical
             // 
-            this.FlipVertical.Location = new System.Drawing.Point(431, 155);
-            this.FlipVertical.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FlipVertical.Location = new System.Drawing.Point(1035, 155);
+            this.FlipVertical.Margin = new System.Windows.Forms.Padding(2);
             this.FlipVertical.Name = "FlipVertical";
             this.FlipVertical.Size = new System.Drawing.Size(94, 31);
             this.FlipVertical.TabIndex = 3;
@@ -89,28 +91,28 @@ namespace GUI
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(11, 32);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(167, 34);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(379, 179);
+            this.pictureBox1.Size = new System.Drawing.Size(800, 450);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
-            // ImageSelectButton
+            // LoadButton
             // 
-            this.ImageSelectButton.Location = new System.Drawing.Point(113, 319);
-            this.ImageSelectButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.ImageSelectButton.Name = "ImageSelectButton";
-            this.ImageSelectButton.Size = new System.Drawing.Size(178, 34);
-            this.ImageSelectButton.TabIndex = 5;
-            this.ImageSelectButton.Text = "Select Image";
-            this.ImageSelectButton.UseVisualStyleBackColor = true;
-            this.ImageSelectButton.Click += new System.EventHandler(this.ImageSelectButton_Click);
+            this.LoadButton.Location = new System.Drawing.Point(18, 34);
+            this.LoadButton.Margin = new System.Windows.Forms.Padding(2);
+            this.LoadButton.Name = "LoadButton";
+            this.LoadButton.Size = new System.Drawing.Size(124, 34);
+            this.LoadButton.TabIndex = 5;
+            this.LoadButton.Text = "Load";
+            this.LoadButton.UseVisualStyleBackColor = true;
+            this.LoadButton.Click += new System.EventHandler(this.LoadButton_Click);
             // 
             // ForwardButton
             // 
-            this.ForwardButton.Location = new System.Drawing.Point(113, 240);
-            this.ForwardButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ForwardButton.Location = new System.Drawing.Point(578, 499);
+            this.ForwardButton.Margin = new System.Windows.Forms.Padding(2);
             this.ForwardButton.Name = "ForwardButton";
             this.ForwardButton.Size = new System.Drawing.Size(94, 32);
             this.ForwardButton.TabIndex = 6;
@@ -120,8 +122,8 @@ namespace GUI
             // 
             // BackwardButton
             // 
-            this.BackwardButton.Location = new System.Drawing.Point(11, 240);
-            this.BackwardButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BackwardButton.Location = new System.Drawing.Point(476, 499);
+            this.BackwardButton.Margin = new System.Windows.Forms.Padding(2);
             this.BackwardButton.Name = "BackwardButton";
             this.BackwardButton.Size = new System.Drawing.Size(94, 32);
             this.BackwardButton.TabIndex = 7;
@@ -131,10 +133,10 @@ namespace GUI
             // 
             // BrightnessDecrease
             // 
-            this.BrightnessDecrease.Location = new System.Drawing.Point(346, 260);
+            this.BrightnessDecrease.Location = new System.Drawing.Point(1012, 36);
             this.BrightnessDecrease.Margin = new System.Windows.Forms.Padding(2);
             this.BrightnessDecrease.Name = "BrightnessDecrease";
-            this.BrightnessDecrease.Size = new System.Drawing.Size(94, 32);
+            this.BrightnessDecrease.Size = new System.Drawing.Size(32, 32);
             this.BrightnessDecrease.TabIndex = 9;
             this.BrightnessDecrease.Text = "-";
             this.BrightnessDecrease.UseVisualStyleBackColor = true;
@@ -142,10 +144,10 @@ namespace GUI
             // 
             // BrightnessIncrease
             // 
-            this.BrightnessIncrease.Location = new System.Drawing.Point(513, 260);
+            this.BrightnessIncrease.Location = new System.Drawing.Point(1120, 36);
             this.BrightnessIncrease.Margin = new System.Windows.Forms.Padding(2);
             this.BrightnessIncrease.Name = "BrightnessIncrease";
-            this.BrightnessIncrease.Size = new System.Drawing.Size(94, 32);
+            this.BrightnessIncrease.Size = new System.Drawing.Size(32, 32);
             this.BrightnessIncrease.TabIndex = 8;
             this.BrightnessIncrease.Text = "+";
             this.BrightnessIncrease.UseVisualStyleBackColor = true;
@@ -154,32 +156,55 @@ namespace GUI
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(445, 270);
+            this.label1.Location = new System.Drawing.Point(1052, 46);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 13);
             this.label1.TabIndex = 10;
             this.label1.Text = "Brightness";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // CommandCalledBox
+            // 
+            this.CommandCalledBox.AutoSize = true;
+            this.CommandCalledBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.CommandCalledBox.Location = new System.Drawing.Point(12, 544);
+            this.CommandCalledBox.Name = "CommandCalledBox";
+            this.CommandCalledBox.Size = new System.Drawing.Size(0, 31);
+            this.CommandCalledBox.TabIndex = 11;
+            this.CommandCalledBox.Click += new System.EventHandler(this.CommandCalledBox_Click);
+            // 
+            // SaveButton
+            // 
+            this.SaveButton.Location = new System.Drawing.Point(18, 82);
+            this.SaveButton.Margin = new System.Windows.Forms.Padding(2);
+            this.SaveButton.Name = "SaveButton";
+            this.SaveButton.Size = new System.Drawing.Size(124, 34);
+            this.SaveButton.TabIndex = 12;
+            this.SaveButton.Text = "Save";
+            this.SaveButton.UseVisualStyleBackColor = true;
+            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
+            // 
             // ViewBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(902, 584);
+            this.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.ClientSize = new System.Drawing.Size(1195, 789);
+            this.Controls.Add(this.SaveButton);
+            this.Controls.Add(this.CommandCalledBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BrightnessDecrease);
             this.Controls.Add(this.BrightnessIncrease);
             this.Controls.Add(this.BackwardButton);
             this.Controls.Add(this.ForwardButton);
-            this.Controls.Add(this.ImageSelectButton);
+            this.Controls.Add(this.LoadButton);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.FlipVertical);
             this.Controls.Add(this.FliphorizontalButton);
             this.Controls.Add(this.RotateButton);
             this.Controls.Add(this.CloseButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ViewBox";
             this.Text = "ViewBox";
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ViewBox_MouseDown);
@@ -198,12 +223,14 @@ namespace GUI
         private System.Windows.Forms.Button FliphorizontalButton;
         private System.Windows.Forms.Button FlipVertical;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button ImageSelectButton;
+        private System.Windows.Forms.Button LoadButton;
         private System.Windows.Forms.Button ForwardButton;
         private System.Windows.Forms.Button BackwardButton;
         private System.Windows.Forms.Button BrightnessDecrease;
         private System.Windows.Forms.Button BrightnessIncrease;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label CommandCalledBox;
+        private System.Windows.Forms.Button SaveButton;
     }
 }
 

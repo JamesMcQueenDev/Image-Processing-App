@@ -50,6 +50,11 @@ namespace SERVER
 
         }
 
+        public void SaveImage()
+        {
+            
+        }
+
         /// <summary>
         /// Request a copy of the image specified by 'pUid', scaled according to the dimensions given by pFrameWidth and pFrameHeight.
         /// </summary>

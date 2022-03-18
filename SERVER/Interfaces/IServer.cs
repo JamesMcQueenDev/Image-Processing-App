@@ -29,6 +29,11 @@ namespace SERVER
         Image GetImage(String pUid, int pFrameWidth, int pFrameHeight);
 
         /// <summary>
+        /// 
+        /// </summary>
+        void SaveImage();
+
+        /// <summary>
         /// Rotate the image specified by 'pUid'.
         /// The client will need to request a copy of the Image to update its view-copy of the image accordingly.
         /// </summary>

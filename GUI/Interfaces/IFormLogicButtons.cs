@@ -16,6 +16,12 @@ namespace GUI
         void ImageSelect();
 
         /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="pSaveImage"></param>
+        void SaveImage(Image pSaveImage);
+
+        /// <summary>
         /// ITERATE through the list of images selected 
         /// </summary>
         void IncreaseImageVal();

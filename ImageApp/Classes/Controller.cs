@@ -32,6 +32,9 @@ namespace ImageApp
         //INSTANCE of delegate, call it _imageSelectDelegate
         private ImageSelectDelegate _imageSelectDelegate;
 
+        //INSTANCE of delegate, call it _imageSelectDelegate
+        private SaveImageDelegate _saveImageDelegate;
+
         //INSTANCE of delegate, call it _imageIncreaseDdelegate
         private ImageIncreaseDelegate _imageIncreaseDelegate;
 
@@ -47,8 +50,10 @@ namespace ImageApp
         //INSTANCE of delegate, call it _imageFlipVertDelegate
         private ImageFlipVertDelegate _imageFlipVertDelegate;
 
+        //
         private IncreaseBrightnessDelegate _increaseBrightnessDelegate;
 
+        //
         private DecreaseBrightnessDelegate _decreaseBrightnessDelegate;
 
         /// <summary>
@@ -95,6 +100,7 @@ namespace ImageApp
             _decreaseBrightnessDelegate = ((IFormLogicButtons)_formLogic).DecreaseBrightness;
 
 
+
             //PASS parameters through to Init method of _viewBox
             _viewBox.Init(_formLogic, 
                           _imageSizeDelegate, 
@@ -105,7 +111,8 @@ namespace ImageApp
                           _imageFlipHorDelegate, 
                           _imageFlipVertDelegate,
                           _increaseBrightnessDelegate,
-                          _decreaseBrightnessDelegate);
+                          _decreaseBrightnessDelegate,
+                          _saveImageDelegate);
 
             //RUN the application
             Application.Run(_viewBox);

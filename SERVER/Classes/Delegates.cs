@@ -18,6 +18,9 @@ namespace SERVER
     //DELEGATE which returns void, call it ImageSelectDelegate
     public delegate void ImageSelectDelegate();
 
+    //DELEGATE which returns void, call it ImageSelectDelegate
+    public delegate void SaveImageDelegate();
+
     //DELEGATE which returns void, call it ImageIncreaseDelegate
     public delegate void ImageIncreaseDelegate();
 

@@ -107,6 +107,24 @@ namespace GUI
             }
         }
 
+        public void SaveImage(Image pSaveImage)
+        {
+            Image saveImage = pSaveImage;
+
+            using (SaveFileDialog saveFileDialog = new SaveFileDialog())
+            {
+                saveFileDialog.InitialDirectory = "c:\\";
+                saveFileDialog.RestoreDirectory = true;
+                saveFileDialog.FileName = "untitled";
+                saveFileDialog.Filter = "(*.png)|*.png";
+
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    saveImage.Save(saveFileDialog.FileName);
+                }
+            }
+        }
+
         /// <summary>
         /// ITERATE through the list of images selected 
         /// </summary>

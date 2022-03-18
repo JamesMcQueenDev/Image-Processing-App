@@ -45,6 +45,10 @@ namespace GUI
 
         DecreaseBrightnessDelegate _decreaseBrightnessDelegate;
 
+        SaveImageDelegate _saveImageDelegate;
+
+        string _commandCalled;
+
 
         /// <summary>
         /// CONSTRUCTOR for ViewBox
@@ -66,7 +70,7 @@ namespace GUI
         /// <param name="pImageRotateDelegate"></param>
         /// <param name="pImageFlipHorDelegate"></param>
         /// <param name="pImageFlipVertDelegate"></param>
-        public void Init(IFormLogicInit pFormLogic, ImageSizeDelegate pImageSizeDelegate, ImageSelectDelegate pImageSelectDelegate, ImageIncreaseDelegate pImageIncreaseDelegate, ImageDecreaseDelegate pImageDecreaseDelegate, ImageRotateDelegate pImageRotateDelegate,ImageFlipHorDelegate pImageFlipHorDelegate, ImageFlipVertDelegate pImageFlipVertDelegate, IncreaseBrightnessDelegate pIncreaseBrightnessDelegate, DecreaseBrightnessDelegate pDecreaseBrightnessDelegate)
+        public void Init(IFormLogicInit pFormLogic, ImageSizeDelegate pImageSizeDelegate, ImageSelectDelegate pImageSelectDelegate, ImageIncreaseDelegate pImageIncreaseDelegate, ImageDecreaseDelegate pImageDecreaseDelegate, ImageRotateDelegate pImageRotateDelegate,ImageFlipHorDelegate pImageFlipHorDelegate, ImageFlipVertDelegate pImageFlipVertDelegate, IncreaseBrightnessDelegate pIncreaseBrightnessDelegate, DecreaseBrightnessDelegate pDecreaseBrightnessDelegate, SaveImageDelegate pSaveImageDelegate)
         {
             //ASSIGN pFormLogic to _formLogic
             _formLogic = pFormLogic;
@@ -97,6 +101,8 @@ namespace GUI
 
             _decreaseBrightnessDelegate = pDecreaseBrightnessDelegate;
 
+            _saveImageDelegate = pSaveImageDelegate;
+
         }
 
         /// <summary>
@@ -123,6 +129,7 @@ namespace GUI
             {
                 //CALL the method in FormLogic through the _imageRotateDelegate
                 _imageRotateDelegate();
+                _commandCalled = "Rotate Clockwise";
                 Update();
             }
             else
@@ -144,6 +151,7 @@ namespace GUI
             {
                 //CALL the method in FormLogic through the _imageFlipHorDelegate
                 _imageFlipHorDelegate();
+                _commandCalled = "Flip Horizontal";
                 Update();
             }
             else
@@ -165,6 +173,7 @@ namespace GUI
             {
                 //CALL the method in FormLogic through the _imageFlipDelegate
                 _imageFlipVertDelegate();
+                _commandCalled = "Flip Vertical";
                 Update();
             }
             else
@@ -179,10 +188,11 @@ namespace GUI
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void ImageSelectButton_Click(object sender, EventArgs e)
+        private void LoadButton_Click(object sender, EventArgs e)
         {
             //CALL the method in FormLogic through the _imageSelectDelegate
             _imageSelectDelegate();
+            _commandCalled = "Load";
             Update();
         }
 
@@ -199,6 +209,7 @@ namespace GUI
             {
                 //CALL the method in FormLogic through the _imageIncreaseDelegate
                 _imageIncreaseDelegate();
+                _commandCalled = "Next";
                 Update();
             }
             else
@@ -220,6 +231,7 @@ namespace GUI
             {
                 //CALL the method  in FormLogic through the _imageDecreaseDelegate
                 _imageDecreaseDelegate();
+                _commandCalled = "Previous";
                 Update();
 
             }
@@ -282,12 +294,14 @@ namespace GUI
         private void BrightnessDecrease_Click(object sender, EventArgs e)
         {
             _increaseBrightnessDelegate();
+            _commandCalled = "Increase Brightness";
             Update();
         }
 
         private void BrightnessIncrease_Click(object sender, EventArgs e)
         {
             _decreaseBrightnessDelegate();
+            _commandCalled = "Decrease Brightness";
             Update();
         }
 
@@ -295,6 +309,17 @@ namespace GUI
         {
             //UPDATE the pictureBox1
             pictureBox1.Image = _imageSizeDelegate(pictureBox1.Width, pictureBox1.Height);
+            CommandCalledBox.Text = _commandCalled;
+        }
+
+        private void CommandCalledBox_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void SaveButton_Click(object sender, EventArgs e)
+        {
+            _saveImageDelegate();   
         }
     }
 }
