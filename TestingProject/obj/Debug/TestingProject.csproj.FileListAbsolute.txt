@@ -1,0 +1,62 @@
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\TestingProject.dll
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\TestingProject.pdb
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\Castle.Core.dll
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\GUI.dll
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\ImageApp.exe
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\Moq.dll
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\SERVER.dll
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\GUI.pdb
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\GUI.dll.config
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\ImageApp.pdb
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\ImageApp.exe.config
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\SERVER.pdb
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\SERVER.dll.config
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\Castle.Core.xml
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\Moq.xml
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\obj\Debug\TestingProject.csproj.AssemblyReference.cache
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\obj\Debug\TestingProject.csproj.CoreCompileInputs.cache
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\obj\Debug\TestingProject.csproj.CopyComplete
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\obj\Debug\TestingProject.dll
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\TestingProject\obj\Debug\TestingProject.pdb
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\TestingProject.dll
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\TestingProject.pdb
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\Castle.Core.dll
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\GUI.dll
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\ImageApp.exe
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\Moq.dll
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\SERVER.dll
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\GUI.pdb
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\GUI.dll.config
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\ImageApp.pdb
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\ImageApp.exe.config
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\SERVER.pdb
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\SERVER.dll.config
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\Castle.Core.xml
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\Moq.xml
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\obj\Debug\TestingProject.csproj.AssemblyReference.cache
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\obj\Debug\TestingProject.csproj.CoreCompileInputs.cache
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\obj\Debug\TestingProject.csproj.CopyComplete
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\obj\Debug\TestingProject.dll
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\TestingProject\obj\Debug\TestingProject.pdb

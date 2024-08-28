@@ -1,0 +1,174 @@
+C:\Users\matth\source\repos\ImageApp\ImageApp\bin\Debug\ImageApp.exe.config
+C:\Users\matth\source\repos\ImageApp\ImageApp\bin\Debug\ImageApp.exe
+C:\Users\matth\source\repos\ImageApp\ImageApp\bin\Debug\ImageApp.pdb
+C:\Users\matth\source\repos\ImageApp\ImageApp\bin\Debug\GUI.exe
+C:\Users\matth\source\repos\ImageApp\ImageApp\bin\Debug\SERVER.dll
+C:\Users\matth\source\repos\ImageApp\ImageApp\bin\Debug\GUI.pdb
+C:\Users\matth\source\repos\ImageApp\ImageApp\bin\Debug\GUI.exe.config
+C:\Users\matth\source\repos\ImageApp\ImageApp\bin\Debug\SERVER.pdb
+C:\Users\matth\source\repos\ImageApp\ImageApp\obj\Debug\ImageApp.csproj.AssemblyReference.cache
+C:\Users\matth\source\repos\ImageApp\ImageApp\obj\Debug\ImageApp.csproj.CoreCompileInputs.cache
+C:\Users\matth\source\repos\ImageApp\ImageApp\obj\Debug\ImageApp.csproj.CopyComplete
+C:\Users\matth\source\repos\ImageApp\ImageApp\obj\Debug\ImageApp.exe
+C:\Users\matth\source\repos\ImageApp\ImageApp\obj\Debug\ImageApp.pdb
+C:\Users\matth\OneDrive\Desktop\AppliedSoftwareEngineering\ImageApp\ImageApp\bin\Debug\ImageApp.exe.config
+C:\Users\matth\OneDrive\Desktop\AppliedSoftwareEngineering\ImageApp\ImageApp\bin\Debug\ImageApp.exe
+C:\Users\matth\OneDrive\Desktop\AppliedSoftwareEngineering\ImageApp\ImageApp\bin\Debug\ImageApp.pdb
+C:\Users\matth\OneDrive\Desktop\AppliedSoftwareEngineering\ImageApp\ImageApp\bin\Debug\GUI.exe
+C:\Users\matth\OneDrive\Desktop\AppliedSoftwareEngineering\ImageApp\ImageApp\bin\Debug\SERVER.dll
+C:\Users\matth\OneDrive\Desktop\AppliedSoftwareEngineering\ImageApp\ImageApp\bin\Debug\GUI.pdb
+C:\Users\matth\OneDrive\Desktop\AppliedSoftwareEngineering\ImageApp\ImageApp\bin\Debug\GUI.exe.config
+C:\Users\matth\OneDrive\Desktop\AppliedSoftwareEngineering\ImageApp\ImageApp\bin\Debug\SERVER.pdb
+C:\Users\matth\OneDrive\Desktop\AppliedSoftwareEngineering\ImageApp\ImageApp\obj\Debug\ImageApp.csproj.AssemblyReference.cache
+C:\Users\matth\OneDrive\Desktop\AppliedSoftwareEngineering\ImageApp\ImageApp\obj\Debug\ImageApp.csproj.CoreCompileInputs.cache
+C:\Users\matth\OneDrive\Desktop\AppliedSoftwareEngineering\ImageApp\ImageApp\obj\Debug\ImageApp.csproj.CopyComplete
+C:\Users\matth\OneDrive\Desktop\AppliedSoftwareEngineering\ImageApp\ImageApp\obj\Debug\ImageApp.exe
+C:\Users\matth\OneDrive\Desktop\AppliedSoftwareEngineering\ImageApp\ImageApp\obj\Debug\ImageApp.pdb
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\bin\Debug\ImageApp.exe.config
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\bin\Debug\ImageApp.exe
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\bin\Debug\ImageApp.pdb
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\bin\Debug\Castle.Core.dll
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\bin\Debug\GUI.dll
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\bin\Debug\Moq.dll
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\bin\Debug\SERVER.dll
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\bin\Debug\GUI.pdb
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\bin\Debug\GUI.dll.config
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\bin\Debug\SERVER.pdb
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\bin\Debug\SERVER.dll.config
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\bin\Debug\Castle.Core.xml
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\bin\Debug\Moq.xml
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\obj\Debug\ImageApp.csproj.AssemblyReference.cache
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\obj\Debug\ImageApp.csproj.CoreCompileInputs.cache
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\obj\Debug\ImageApp.csproj.CopyComplete
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\obj\Debug\ImageApp.exe
+C:\Users\jackh\Documents\Uni Work\Applied Software Engineering\ObjectAssignment2\ImageApp\obj\Debug\ImageApp.pdb
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\bin\Debug\ImageApp.exe.config
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\bin\Debug\ImageApp.exe
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\bin\Debug\ImageApp.pdb
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\bin\Debug\Castle.Core.dll
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\bin\Debug\GUI.dll
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\bin\Debug\Moq.dll
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\bin\Debug\SERVER.dll
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\bin\Debug\GUI.pdb
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\bin\Debug\GUI.dll.config
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\bin\Debug\SERVER.pdb
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\bin\Debug\SERVER.dll.config
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\bin\Debug\Castle.Core.xml
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\bin\Debug\Moq.xml
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\obj\Debug\ImageApp.csproj.AssemblyReference.cache
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\obj\Debug\ImageApp.csproj.CoreCompileInputs.cache
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\obj\Debug\ImageApp.csproj.CopyComplete
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\obj\Debug\ImageApp.exe
+C:\Users\matth\OneDrive\Desktop\ObjectAssignment2\ImageApp\obj\Debug\ImageApp.pdb
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\bin\Debug\ImageApp.exe.config
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\bin\Debug\ImageApp.exe
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\bin\Debug\ImageApp.pdb
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\bin\Debug\Castle.Core.dll
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\bin\Debug\GUI.dll
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\bin\Debug\Moq.dll
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\bin\Debug\SERVER.dll
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\bin\Debug\GUI.pdb
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\bin\Debug\GUI.dll.config
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\bin\Debug\SERVER.pdb
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\bin\Debug\SERVER.dll.config
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\bin\Debug\Castle.Core.xml
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\bin\Debug\Moq.xml
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\obj\Debug\ImageApp.csproj.AssemblyReference.cache
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\obj\Debug\ImageApp.csproj.CoreCompileInputs.cache
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\obj\Debug\ImageApp.csproj.CopyComplete
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\obj\Debug\ImageApp.exe
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\obj\Debug\ImageApp.pdb
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\bin\Debug\ImageProcessor.dll
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\bin\Debug\System.ValueTuple.dll
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\bin\Debug\ImageProcessor.xml
+C:\Users\jackh\Documents\Uni Work\FINALPIECEOFSHIT\ObjectAssignment2\ImageApp\bin\Debug\System.ValueTuple.xml
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\ImageApp.exe.config
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\ImageApp.exe
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\ImageApp.pdb
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\Castle.Core.dll
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\GUI.dll
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\Moq.dll
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\SERVER.dll
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\ImageProcessor.dll
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\System.ValueTuple.dll
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\GUI.pdb
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\GUI.dll.config
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\SERVER.pdb
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\SERVER.dll.config
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\Castle.Core.xml
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\Moq.xml
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\ImageProcessor.xml
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\System.ValueTuple.xml
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\obj\Debug\ImageApp.csproj.AssemblyReference.cache
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\obj\Debug\ImageApp.csproj.CoreCompileInputs.cache
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\obj\Debug\ImageApp.csproj.CopyComplete
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\obj\Debug\ImageApp.exe
+C:\Users\matth\OneDrive\Desktop\THEFINALOBJECT\ImageApp\obj\Debug\ImageApp.pdb
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\ImageApp.exe.config
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\ImageApp.exe
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\ImageApp.pdb
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\Castle.Core.dll
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\GUI.dll
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\Moq.dll
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\SERVER.dll
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\ImageProcessor.dll
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\System.ValueTuple.dll
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\GUI.pdb
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\GUI.dll.config
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\SERVER.pdb
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\SERVER.dll.config
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\Castle.Core.xml
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\Moq.xml
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\ImageProcessor.xml
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\bin\Debug\System.ValueTuple.xml
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\obj\Debug\ImageApp.csproj.AssemblyReference.cache
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\obj\Debug\ImageApp.csproj.CoreCompileInputs.cache
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\obj\Debug\ImageApp.exe
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\obj\Debug\ImageApp.pdb
+C:\Users\James McQueen\Desktop\THEFINALOBJECT\ImageApp\obj\Debug\ImageApp.csproj.CopyComplete
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\bin\Debug\ImageApp.exe.config
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\bin\Debug\ImageApp.exe
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\bin\Debug\ImageApp.pdb
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\bin\Debug\Castle.Core.dll
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\bin\Debug\GUI.dll
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\bin\Debug\Moq.dll
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\bin\Debug\SERVER.dll
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\bin\Debug\ImageProcessor.dll
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\bin\Debug\System.ValueTuple.dll
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\bin\Debug\GUI.pdb
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\bin\Debug\GUI.dll.config
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\bin\Debug\SERVER.pdb
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\bin\Debug\SERVER.dll.config
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\bin\Debug\Castle.Core.xml
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\bin\Debug\Moq.xml
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\bin\Debug\ImageProcessor.xml
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\bin\Debug\System.ValueTuple.xml
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\obj\Debug\ImageApp.csproj.AssemblyReference.cache
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\obj\Debug\ImageApp.csproj.CoreCompileInputs.cache
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\obj\Debug\ImageApp.csproj.Up2Date
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\obj\Debug\ImageApp.exe
+C:\Users\James McQueen\Desktop\omelette_COMP3404_TeamPortfolio\ImageApp\obj\Debug\ImageApp.pdb

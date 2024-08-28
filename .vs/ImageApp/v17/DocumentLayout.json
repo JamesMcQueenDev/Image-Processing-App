@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFF9AB01-4BEE-4CA1-826C-CC822FCC9BDD}|SERVER\\SERVER.csproj|c:\\users\\james mcqueen\\desktop\\omelette_comp3404_teamportfolio\\server\\classes\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFF9AB01-4BEE-4CA1-826C-CC822FCC9BDD}|SERVER\\SERVER.csproj|solutionrelative:server\\classes\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFF9AB01-4BEE-4CA1-826C-CC822FCC9BDD}|SERVER\\SERVER.csproj|C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\server\\classes\\ifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFF9AB01-4BEE-4CA1-826C-CC822FCC9BDD}|SERVER\\SERVER.csproj|solutionrelative:server\\classes\\ifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFF9AB01-4BEE-4CA1-826C-CC822FCC9BDD}|SERVER\\SERVER.csproj|C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\server\\classes\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFF9AB01-4BEE-4CA1-826C-CC822FCC9BDD}|SERVER\\SERVER.csproj|solutionrelative:server\\classes\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5BFB93C-FB0B-4030-86D2-13D971BA170A}|TestingProject\\TestingProject.csproj|C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\testingproject\\endtoendtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5BFB93C-FB0B-4030-86D2-13D971BA170A}|TestingProject\\TestingProject.csproj|solutionrelative:testingproject\\endtoendtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFF9AB01-4BEE-4CA1-826C-CC822FCC9BDD}|SERVER\\SERVER.csproj|C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\server\\interfaces\\iimagemod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFF9AB01-4BEE-4CA1-826C-CC822FCC9BDD}|SERVER\\SERVER.csproj|solutionrelative:server\\interfaces\\iimagemod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFF9AB01-4BEE-4CA1-826C-CC822FCC9BDD}|SERVER\\SERVER.csproj|C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\server\\classes\\imageeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFF9AB01-4BEE-4CA1-826C-CC822FCC9BDD}|SERVER\\SERVER.csproj|solutionrelative:server\\classes\\imageeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFF9AB01-4BEE-4CA1-826C-CC822FCC9BDD}|SERVER\\SERVER.csproj|C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\server\\classes\\imagemod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFF9AB01-4BEE-4CA1-826C-CC822FCC9BDD}|SERVER\\SERVER.csproj|solutionrelative:server\\classes\\imagemod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFF9AB01-4BEE-4CA1-826C-CC822FCC9BDD}|SERVER\\SERVER.csproj|C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\server\\classes\\servicelocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFF9AB01-4BEE-4CA1-826C-CC822FCC9BDD}|SERVER\\SERVER.csproj|solutionrelative:server\\classes\\servicelocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FBB555B-C9AE-4091-ABB9-B5182FAC28F2}|GUI\\GUI.csproj|C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\gui\\forms\\imageview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1FBB555B-C9AE-4091-ABB9-B5182FAC28F2}|GUI\\GUI.csproj|solutionrelative:gui\\forms\\imageview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EndToEndTest.cs",
+              "DocumentMoniker": "C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\TestingProject\\EndToEndTest.cs",
+              "RelativeDocumentMoniker": "TestingProject\\EndToEndTest.cs",
+              "ToolTip": "C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\TestingProject\\EndToEndTest.cs",
+              "RelativeToolTip": "TestingProject\\EndToEndTest.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAQwGMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T13:59:31.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IImageMod.cs",
+              "DocumentMoniker": "C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\SERVER\\Interfaces\\IImageMod.cs",
+              "RelativeDocumentMoniker": "SERVER\\Interfaces\\IImageMod.cs",
+              "ToolTip": "C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\SERVER\\Interfaces\\IImageMod.cs",
+              "RelativeToolTip": "SERVER\\Interfaces\\IImageMod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T13:59:19.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IFactory.cs",
+              "DocumentMoniker": "C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\SERVER\\Classes\\IFactory.cs",
+              "RelativeDocumentMoniker": "SERVER\\Classes\\IFactory.cs",
+              "ToolTip": "C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\SERVER\\Classes\\IFactory.cs",
+              "RelativeToolTip": "SERVER\\Classes\\IFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T13:59:07.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IService.cs",
+              "DocumentMoniker": "C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\SERVER\\Classes\\IService.cs",
+              "RelativeDocumentMoniker": "SERVER\\Classes\\IService.cs",
+              "ToolTip": "C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\SERVER\\Classes\\IService.cs",
+              "RelativeToolTip": "SERVER\\Classes\\IService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T13:59:04.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServiceLocator.cs",
+              "DocumentMoniker": "C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\SERVER\\Classes\\ServiceLocator.cs",
+              "RelativeDocumentMoniker": "SERVER\\Classes\\ServiceLocator.cs",
+              "ToolTip": "C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\SERVER\\Classes\\ServiceLocator.cs",
+              "RelativeToolTip": "SERVER\\Classes\\ServiceLocator.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T13:59:01.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ImageMod.cs",
+              "DocumentMoniker": "C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\SERVER\\Classes\\ImageMod.cs",
+              "RelativeDocumentMoniker": "SERVER\\Classes\\ImageMod.cs",
+              "ToolTip": "C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\SERVER\\Classes\\ImageMod.cs",
+              "RelativeToolTip": "SERVER\\Classes\\ImageMod.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T13:58:36.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ImageEventArgs.cs",
+              "DocumentMoniker": "C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\SERVER\\Classes\\ImageEventArgs.cs",
+              "RelativeDocumentMoniker": "SERVER\\Classes\\ImageEventArgs.cs",
+              "ToolTip": "C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\SERVER\\Classes\\ImageEventArgs.cs",
+              "RelativeToolTip": "SERVER\\Classes\\ImageEventArgs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T13:58:35.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Factory.cs",
+              "DocumentMoniker": "C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\SERVER\\Classes\\Factory.cs",
+              "RelativeDocumentMoniker": "SERVER\\Classes\\Factory.cs",
+              "ToolTip": "C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\SERVER\\Classes\\Factory.cs",
+              "RelativeToolTip": "SERVER\\Classes\\Factory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T13:58:30.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ImageView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\GUI\\Forms\\ImageView.cs",
+              "RelativeDocumentMoniker": "GUI\\Forms\\ImageView.cs",
+              "ToolTip": "C:\\Users\\James McQueen\\Desktop\\omelette_COMP3404_TeamPortfolio\\GUI\\Forms\\ImageView.cs [Design]",
+              "RelativeToolTip": "GUI\\Forms\\ImageView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T13:52:30.659Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

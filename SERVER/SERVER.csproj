@@ -55,10 +55,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Brightness.cs" />
-    <Compile Include="Classes\Delegates.cs" />
-    <Compile Include="Interfaces\IServer.cs" />
-    <Compile Include="Classes\Server.cs" />
+    <Compile Include="Classes\Factory.cs" />
+    <Compile Include="Classes\IFactory.cs" />
+    <Compile Include="Classes\ImageEventArgs.cs" />
+    <Compile Include="Classes\ImageMod.cs" />
+    <Compile Include="Classes\IService.cs" />
+    <Compile Include="Classes\ServiceLocator.cs" />
+    <Compile Include="Exceptions\NotInitializedException.cs" />
+    <Compile Include="Interfaces\IImageMod.cs" />
+    <Compile Include="Interfaces\IListener.cs" />
+    <Compile Include="Interfaces\IPublisher.cs" />
+    <Compile Include="Interfaces\IServiceLocator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -15,107 +15,125 @@ namespace ImageApp
     /// Author: Matthew Whitehouse
     /// Date: 13/12/2021
     /// </summary>
-    public class Controller
+    public class Controller : IController
     {
-        //INSTANCE of IServer, call is _server
-        private IServer _server;
+        //DEFINE private IList, call it _imageHandlerList
+        private IList<(IImageView pView, IImageMod pMod)> _imageHandlerList;
 
-        //INSTANCE of IFormLogicInit, call it _formLogic
-        private IFormLogicInit _formLogic;
+        //DEFINE private IFactory, call it _factory, creating an abstract factory
+        private IFactory _factory;
 
-        //INSTANCE of ViewBox, call it _viewBox
-        private ViewBox _viewBox;
+        //DEFINE private Action, call it _invokeCommand
+        private Action<ICommand> _invokeCommand;
 
-        //INSTANCE of delegate, call it _imageSizeDelegate
-        private ImageSizeDelegate _imageSizeDelegate;
-
-        //INSTANCE of delegate, call it _imageSelectDelegate
-        private ImageSelectDelegate _imageSelectDelegate;
-
-        //INSTANCE of delegate, call it _imageSelectDelegate
-        private SaveImageDelegate _saveImageDelegate;
-
-        //INSTANCE of delegate, call it _imageIncreaseDdelegate
-        private ImageIncreaseDelegate _imageIncreaseDelegate;
-
-        //INSTANCE of delegate, call it _imageDecreaseDelegate
-        private ImageDecreaseDelegate _imageDecreaseDelegate;
-
-        //INSTANCE of delegate, call it _imageRotateDelegate
-        private ImageRotateDelegate _imageRotateDelegate;
-
-        //INSTANCE of delegate, call it _imageFlipHorDelegate
-        private ImageFlipHorDelegate _imageFlipHorDelegate;
-
-        //INSTANCE of delegate, call it _imageFlipVertDelegate
-        private ImageFlipVertDelegate _imageFlipVertDelegate;
-
-        //
-        private IncreaseBrightnessDelegate _increaseBrightnessDelegate;
-
-        //
-        private DecreaseBrightnessDelegate _decreaseBrightnessDelegate;
+        //DEFINE private IBaseView _baseView
+        private IBaseView _baseView;
 
         /// <summary>
         /// CONSTRUCTOR of Controller
         /// </summary>
-        public Controller()
+        public Controller(IFactory pFactory, Action<ICommand> pInvokeCommand, IBaseView pBaseView)
         {
-            //INITIALISE instance of Server, call it _server
-            _server = new Server();
+            // SET pFactory as _factory
+            _factory = pFactory;
 
-            //INITIALISE instance of FormLogic, call is _formLogic
-            _formLogic = new FormLogic();    
-            
-            //CALL Init method in FormLogic, pass instance of Server as parameter
-            _formLogic.Initialise(_server);
+            // SET pInvokeCommand as _invokeCommand
+            _invokeCommand = pInvokeCommand;
 
-            //INITIALISE new instance of ViewBox, call it _viewBox
-            _viewBox = new ViewBox();
+            // SET pBaseView as _baseView
+            _baseView = pBaseView;
 
-            //ASSIGN the method GetImage in IFormLogicButtons to _imageSizeDelegate
-            _imageSizeDelegate = ((IFormLogicButtons)_formLogic).GetImage;
+            // CREATES _imageHandlerList as a _factory, CALL method Create
+            _imageHandlerList = _factory.Create<IList<(IImageView pView, IImageMod pMod)>, List<(IImageView pView, IImageMod pMod)>>();
 
-            //ASSIGN the method ImageSelect in IFormLogicButtons to _imageSelectDelegate
-            _imageSelectDelegate = ((IFormLogicButtons)_formLogic).ImageSelect;
+            // SET an ICommandZeroParam as _addImageCommand
+            ICommandZeroParam _addImageCommand = _factory.Create<ICommandZeroParam, Command>();
 
-            //ASSIGN the method IncreaseImageVal in IFormLogicButtons to _imageIncreaseDelegate
-            _imageIncreaseDelegate = ((IFormLogicButtons)_formLogic).IncreaseImageVal;
+            //SET SetAction of _addImageCommand as AddImageHandler
+            _addImageCommand.SetAction = AddImageHandler;
 
-            //ASSIGN the method DecreaseImageVal in IFormLogicButtons to _imageDecreaseImageDelegate
-            _imageDecreaseDelegate = ((IFormLogicButtons)_formLogic).DecreaseImageVal;
+            //CALL Intialize of _baseView
+            _baseView.Initialize(_invokeCommand, _addImageCommand);
+        }
 
-            //ASSIGN the method RotateImage in IFormLogicButtons to _imageRotateDelegate
-            _imageRotateDelegate = ((IFormLogicButtons)_formLogic).RotateImage;
+        /// <summary>
+        /// CREATES a new ImageHandler window
+        /// </summary>
+        public void AddImageHandler()
+        {
+            // ADD to list in the ImageHandler
+            _imageHandlerList.Add((_factory.Create<IImageView, ImageView>(), _factory.Create<IImageMod, ImageMod>()));
 
-            //ASSIGN the method FlipHorizontal in IFormLogicButtons to _imageFlipHorDelegate
-            _imageFlipHorDelegate = ((IFormLogicButtons)_formLogic).FlipHorizontal;
+            // LOAD the command 
+            ICommandZeroParam _loadImageCommand = _factory.Create<ICommandZeroParam, Command>();
 
-            //ASSIGN the method Flipvertical in IFormLogicButtons to _imageFlipVertDelegate 
-            _imageFlipVertDelegate = ((IFormLogicButtons)_formLogic).FlipVertical;
+            // LOAD the ImageModel and SET the action
+            _loadImageCommand.SetAction = _imageHandlerList[_imageHandlerList.Count - 1].pMod.LoadImage;
 
+            // LOAD the command 
+            ICommandZeroParam _rotateImageCommand = _factory.Create<ICommandZeroParam, Command>();
 
-            _increaseBrightnessDelegate = ((IFormLogicButtons)_formLogic).IncreaseBrightness;
+            // LOAD the ImageModel and SET the action
+            _rotateImageCommand.SetAction = _imageHandlerList[_imageHandlerList.Count - 1].pMod.RotateImage;
 
-            _decreaseBrightnessDelegate = ((IFormLogicButtons)_formLogic).DecreaseBrightness;
+            // LOAD the command 
+            ICommandZeroParam _flipImageCommand = _factory.Create<ICommandZeroParam, Command>();
 
+            // LOAD the ImageModel and SET the action
+            _flipImageCommand.SetAction = _imageHandlerList[_imageHandlerList.Count - 1].pMod.FlipImage;
 
+            // LOAD the command 
+            ICommandZeroParam _brightImageCommand = _factory.Create<ICommandZeroParam, Command>();
 
-            //PASS parameters through to Init method of _viewBox
-            _viewBox.Init(_formLogic, 
-                          _imageSizeDelegate, 
-                          _imageSelectDelegate, 
-                          _imageIncreaseDelegate, 
-                          _imageDecreaseDelegate, 
-                          _imageRotateDelegate, 
-                          _imageFlipHorDelegate, 
-                          _imageFlipVertDelegate,
-                          _increaseBrightnessDelegate,
-                          _decreaseBrightnessDelegate,
-                          _saveImageDelegate);
+            // LOAD the ImageModel and SET the action
+            _brightImageCommand.SetAction = _imageHandlerList[_imageHandlerList.Count - 1].pMod.Brightness;
 
-            //RUN the application
-            Application.Run(_viewBox);
+            // LOAD the command 
+            ICommandZeroParam _contrastImageCommand = _factory.Create<ICommandZeroParam, Command>();
+
+            // LOAD the ImageModel and SET the action
+            _contrastImageCommand.SetAction = _imageHandlerList[_imageHandlerList.Count - 1].pMod.Contrast;
+
+            // LOAD the command 
+            ICommandZeroParam _pixelateImageCommand = _factory.Create<ICommandZeroParam, Command>();
+
+            // LOAD the ImageModel and SET the action
+            _pixelateImageCommand.SetAction = _imageHandlerList[_imageHandlerList.Count - 1].pMod.Pixelate;
+
+            // LOAD the command 
+            ICommandZeroParam _opacityImageCommand = _factory.Create<ICommandZeroParam, Command>();
+
+            // LOAD the ImageModel and SET the action
+            _opacityImageCommand.SetAction = _imageHandlerList[_imageHandlerList.Count - 1].pMod.Opacity;
+
+            // LOAD the command 
+            ICommandZeroParam _hueImageCommand = _factory.Create<ICommandZeroParam, Command>();
+
+            // LOAD the ImageModel and SET the action
+            _hueImageCommand.SetAction = _imageHandlerList[_imageHandlerList.Count - 1].pMod.Hue;
+
+            // LOAD the command 
+            ICommandZeroParam _gaussianImageCommand = _factory.Create<ICommandZeroParam, Command>();
+
+            // LOAD the ImageModel and SET the action
+            _gaussianImageCommand.SetAction = _imageHandlerList[_imageHandlerList.Count - 1].pMod.Gaussian;
+
+            // LOAD the command 
+            ICommandZeroParam _saturationImageCommand = _factory.Create<ICommandZeroParam, Command>();
+
+            // LOAD the ImageModel and SET the action
+            _saturationImageCommand.SetAction = _imageHandlerList[_imageHandlerList.Count - 1].pMod.Saturation;
+
+            // INITIALISE the image view
+            (_imageHandlerList[_imageHandlerList.Count - 1].pView).Initialize(_invokeCommand, _loadImageCommand, 
+            _rotateImageCommand, _flipImageCommand, _brightImageCommand, _contrastImageCommand, _pixelateImageCommand, _opacityImageCommand, _hueImageCommand, _gaussianImageCommand, _saturationImageCommand);
+
+            // INITIALISE the image model 
+            (_imageHandlerList[_imageHandlerList.Count - 1].pMod as IPublisher).Initialize(_factory);
+
+            // SUBSCRIBE the image model to the image view
+            (_imageHandlerList[_imageHandlerList.Count - 1].pMod as IPublisher).Subscribe((_imageHandlerList[_imageHandlerList.Count - 1].pView as IListener).Handler);
+
         }
     }
 }
